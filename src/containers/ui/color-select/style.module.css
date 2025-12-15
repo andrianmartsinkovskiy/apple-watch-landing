@@ -1,0 +1,48 @@
+.wrap {
+  position: fixed;
+  left: 38%;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  column-gap: 32px;
+  transition: .5s;
+}
+
+.arrows {
+  font-size: 74px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 24px;
+  color: grey;
+}
+
+.arrows svg {
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: #fff;
+  transition: 0.15s;
+}
+
+.colors {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  align-items: center;
+}
+
+.item {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.itemActive {
+  width: 70px;
+  height: 70px;
+  opacity: 1;
+}

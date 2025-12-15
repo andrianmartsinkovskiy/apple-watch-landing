@@ -1,0 +1,11 @@
+.wrap {
+  position: fixed;
+  z-index: 2;
+  left: 58vw;
+  width: 33vw;
+  top: 50vh;
+  transform: translateY(-50%);
+  font-size: 1.8vw;
+  line-height: 140%;
+  color: grey;
+}
